@@ -1,0 +1,79 @@
+.navbar {
+  background-color: #2563eb;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-logo-image {
+  height: 32px;
+  margin-right: 10px;
+  background-color: white;       
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.navbar-logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 1.5rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #d1d5db;
+}
+
+.navbar-auth {
+  display: flex;
+  gap: 1rem;
+}
+
+.login-btn,
+.register-btn {
+  background-color: white;
+  color: #2563eb;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+  background-color: #dbeafe;
+}
